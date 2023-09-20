@@ -12,5 +12,13 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
+  },
+  //ajout de ces lignes pour le deploiement
+  base: "/ExerciceCopieSiteResto/",
+  plugins: [],
+  resolve: {
+    alias: [
+
+    ]
   }
 })
