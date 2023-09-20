@@ -9,17 +9,17 @@ export default defineConfig({
     vue(),
     // [vue()],
   ],
-  // resolve: {
-  //   alias: {
-  //     '@': fileURLToPath(new URL('./src', import.meta.url))
-  //   }
-  // },
   //ajout de ces lignes pour le deploiement
   base: "/ExerciceCopieSiteResto/",
   plugins: [],
   resolve: {
     alias: [
-      '@', fileURLToPath(new URL('./src', import.meta.url))
+
     ]
-  }
+  },
+  resolve: {
+    alias: {
+      '@': fileURLToPath(new URL('./src', import.meta.url))
+    }
+  },
 })
