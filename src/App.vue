@@ -1,7 +1,7 @@
 <template>
   <div class="global">
     <div class="cadre">
-      <div class="nav">
+      <div class="navig">
         <navigation2 />
       </div>
       <component :is="currentView" />
@@ -91,7 +91,7 @@ body {
   padding: 0;
 }
 
-.nav {
+.navig {
   /* position: sticky;
    top: 0; */
   position: relative;
