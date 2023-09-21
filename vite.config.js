@@ -9,11 +9,11 @@ export default defineConfig({
   base: "/ExerciceCopieSiteResto/",
 
   plugins: [vue(),],
-  resolve: {
-    alias: [
+  // resolve: {
+  //   alias: [
 
-    ]
-  },
+  //   ]
+  // },
   // plugins: [
   //   vue(),
   //   // [vue()],
