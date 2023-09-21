@@ -5,21 +5,21 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-    vue(),
-    // [vue()],
-  ],
+  // plugins: [
+  //   vue(),
+  //   // [vue()],
+  // ],
   //ajout de ces lignes pour le deploiement
   base: "/ExerciceCopieSiteResto/",
-  plugins: [],
+  plugins: [vue(),],
   resolve: {
     alias: [
-
+      '@': fileURLToPath(new URL('./src', import.meta.url))
     ]
   },
-  resolve: {
-    alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
-    }
-  },
+  // resolve: {
+  //   alias: {
+  //     '@': fileURLToPath(new URL('./src', import.meta.url))
+  //   }
+  // },
 })
