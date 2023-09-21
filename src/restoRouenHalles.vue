@@ -76,7 +76,7 @@ export default {
           spécialités scandinaves qui raviront votre palais.
         </p>
         <br />
-        <a href="/#/reservations">
+        <a href="#/reservations">
           <div class="boutonblanc coutourrouge">RÉSERVER UNE TABLE</div>
         </a>
       </div>

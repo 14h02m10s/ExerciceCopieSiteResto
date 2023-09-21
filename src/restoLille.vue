@@ -9,7 +9,7 @@ export default {
     <div class="fjord2"></div>
 
     <div class="secondpart">
-      <a href="/#/reservations">
+      <a href="#/reservations">
         <div class="englobeurBouton">
           <div class="boutonblanc decalagebouton1">RÉSERVER UNE TABLE</div>
         </div>
@@ -102,7 +102,7 @@ export default {
           cocktail dinatoire.
         </p>
         <br />
-        <a href="/#/reservations">
+        <a href="#/reservations">
           <div class="boutonblanc coutourrouge">RÉSERVER UNE TABLE</div>
         </a>
       </div>
@@ -197,7 +197,7 @@ export default {
         </div>
       </div>
       <div class="englobeurBouton">
-        <a href="/#/nos-produits">
+        <a href="#/nos-produits">
           <div class="boutonblanc contourrouge">VOIR LA GALERIE</div>
         </a>
       </div>
