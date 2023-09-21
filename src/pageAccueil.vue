@@ -89,7 +89,7 @@ export default {
           />
           <div class="survol">
             <div class="texte-accordeon">le restaurant de Rouen</div>
-            <a href="/#/RestaurantRouen">
+            <a href="#/RestaurantRouen">
               <div class="bouton-accordeon">DÉCOUVRIR</div>
             </a>
           </div>
@@ -103,7 +103,7 @@ export default {
           />
           <div class="survol">
             <div class="texte-accordeon">le restaurant de Lille</div>
-            <a href="/#/RestaurantLille">
+            <a href="#/RestaurantLille">
               <div class="bouton-accordeon">DÉCOUVRIR</div>
             </a>
           </div>
@@ -117,7 +117,7 @@ export default {
           />
           <div class="survol">
             <div class="texte-accordeon">Halles Agrivin (Rouen)</div>
-            <a href="/#/RestaurantRouenHalles">
+            <a href="#/RestaurantRouenHalles">
               <div class="bouton-accordeon">DÉCOUVRIR</div>
             </a>
           </div>
