@@ -18,7 +18,7 @@ export default {
       <div class="separate"></div>
       <p>Spécialités Nordiques et de poissons frais depuis 1987</p>
       <div class="englobeurBouton">
-        <a href="/#/reservations">
+        <a href="#/reservations">
           <div class="boutonrouge">RÉSERVER UNE TABLE</div>
         </a>
       </div>
@@ -63,7 +63,7 @@ export default {
         </p>
         <br /><br />
         <p class="bold">Bon voyage en terre inconnue !</p>
-        <a href="/#/reservations">
+        <a href="#/reservations">
           <div class="boutonblanc contourrouge">
             RÉSERVER UNE TABLE
             <!-- <a href="/#/reservations">RÉSERVER UNE TABLE</a> -->
