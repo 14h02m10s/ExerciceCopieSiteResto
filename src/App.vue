@@ -5,8 +5,7 @@
         <navigation2 />
       </div>
       <component :is="currentView" />
-      <!-- <pageAccueil />
-      <restoLille /> -->
+
       <div class="foot">
         <piedpage />
       </div>

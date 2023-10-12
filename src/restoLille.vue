@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <div>
+  <div id="toppage-lille">
     <div class="fjord2"></div>
 
     <div class="secondpart">

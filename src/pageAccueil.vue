@@ -9,7 +9,7 @@ export default {
     <div class="fjord"></div>
 
     <div class="secondpart">
-      <a href="#fourthpart">
+      <a href="#fourth-part">
         <div class="englobeurBouton">
           <div class="boutonblanc decalagebouton1">VOIR NOS RESTAURANTS</div>
         </div>
@@ -72,7 +72,7 @@ export default {
       </div>
     </div>
 
-    <div class="fourthpart" id="fourthpart">
+    <div class="fourthpart" id="fourth-part">
       <div>
         <h2>Nos restaurants</h2>
         <br />
@@ -104,6 +104,11 @@ export default {
           <div class="survol">
             <div class="texte-accordeon">le restaurant de Lille</div>
             <a href="#/RestaurantLille">
+              <!-- <a
+              href="https://14h02m10s.github.io/ExerciceCopieSiteResto/#/RestaurantLille"
+            > -->
+              <!-- <a href="#/RestaurantLille" autoscroll="true"> -->
+              <!-- <a href="#/RestaurantLille/#toppage"> -->
               <div class="bouton-accordeon">DÉCOUVRIR</div>
             </a>
           </div>
